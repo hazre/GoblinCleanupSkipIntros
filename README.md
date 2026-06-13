@@ -1,7 +1,16 @@
-# Skip Intros
+<table>
+  <tr>
+    <td><img src="icon.png" width="96" alt="More Players icon"></td>
+    <td>
+      <h1>Skip Intros</h1>
+      <p>A <a href="https://store.steampowered.com/app/2750010">Goblin Cleanup</a> mod that skips intro videos and
+        splash screens on startup.</p>
+    </td>
+  </tr>
+</table>
+
 [![Thunderstore Badge](https://modding.resonite.net/assets/available-on-thunderstore.svg)](https://thunderstore.io/c/goblincleanup/)
 
-A [Goblin Cleanup](https://store.steampowered.com/app/2750010) mod that skips intro videos and splash screens on startup.
 
 ## Installation (Manual)
 1. Install [BepInExPack for Goblin Cleanup](https://github.com/hazre/BepInExPack-GoblinCleanup).
