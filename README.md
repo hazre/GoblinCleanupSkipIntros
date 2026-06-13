@@ -9,6 +9,18 @@ A [Goblin Cleanup](https://store.steampowered.com/app/2750010) mod that skips in
 3. Extract and copy `GoblinCleanupSkipIntros.dll` to `BepInEx/plugins/`.
 4. Start the game.
 
+## Development
+ 
+Install [mise](https://mise.jdx.dev/getting-started.html) and run `mise install` to set up tools.
+ 
+```bash
+mise run build    # Build the DLL
+mise run package  # Build the Thunderstore package
+```
+ 
+Run `mise tasks` to list all available tasks.
+
+
 ## License
 
-MIT. See [LICENSE](LICENSE) for details.
+This project is licensed under MIT License. See [LICENSE](LICENSE) for details.
