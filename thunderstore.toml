@@ -1,0 +1,33 @@
+[config]
+schemaVersion = "0.0.1"
+
+[package]
+namespace = "hazre"
+name = "SkipIntros"
+description = "Skips intro videos and splash screens in Goblin Cleanup."
+websiteUrl = "https://github.com/hazre/GoblinCleanupSkipIntros"
+containsNsfwContent = false
+
+[build]
+icon = "./icon.png"
+readme = "./README.md"
+outdir = "./build"
+
+[[build.copy]]
+source = "./GoblinCleanupSkipIntros/bin/Release/GoblinCleanupSkipIntros.dll"
+target = "plugins/"
+
+[[build.copy]]
+source = "./CHANGELOG.md"
+target = "/"
+
+[[build.copy]]
+source = "./LICENSE"
+target = "/"
+
+[publish]
+repository = "https://thunderstore.io"
+communities = ["goblincleanup"]
+
+[publish.categories]
+goblincleanup = ["mods"]
