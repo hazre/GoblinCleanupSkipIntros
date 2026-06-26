@@ -1,21 +1,21 @@
 <table>
   <tr>
-    <td><img src="icon.png" width="96" alt="More Players icon"></td>
+    <td><img src="https://raw.githubusercontent.com/hazre/GoblinCleanupSkipIntros/refs/heads/main/icon.png" width="96" alt="More Players icon"></td>
     <td>
       <h1>Skip Intros</h1>
-      <p>A <a href="https://store.steampowered.com/app/2750010">Goblin Cleanup</a> mod that skips intro videos and
-        splash screens on startup.</p>
+      <p>A <a href="https://store.steampowered.com/app/2748340/Goblin_Cleanup/">Goblin Cleanup</a> mod that skips intro videos and splash screens on startup.</p>
     </td>
   </tr>
 </table>
 
-[![Thunderstore Badge](https://modding.resonite.net/assets/available-on-thunderstore.svg)](https://thunderstore.io/c/goblincleanup/)
+[![Thunderstore Badge](https://modding.resonite.net/assets/available-on-thunderstore.svg)](https://thunderstore.io/c/goblin-cleanup/)
 
 
 ## Installation (Manual)
-1. Install [BepInExPack for Goblin Cleanup](https://github.com/hazre/BepInExPack-GoblinCleanup).
+1. Install [BepInExPack for Goblin Cleanup](https://github.com/hazre/BepInExPack-GoblinCleanup) (includes BepInEx + unstripped corlibs).
 2. Download the latest release ZIP from the [Releases](https://github.com/hazre/GoblinCleanupSkipIntros/releases) page.
-3. Extract and copy `GoblinCleanupSkipIntros.dll` to `BepInEx/plugins/`.
+3. Extract the ZIP and copy `GoblinCleanupSkipIntros.dll` to your BepInEx plugins folder:
+   - **Default location:** `C:\Program Files (x86)\Steam\steamapps\common\Goblin Cleanup\BepInEx\plugins\`
 4. Start the game.
 
 ## Development

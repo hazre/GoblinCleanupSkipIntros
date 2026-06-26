@@ -8,6 +8,9 @@ description = "Skips intro videos and splash screens in Goblin Cleanup."
 websiteUrl = "https://github.com/hazre/GoblinCleanupSkipIntros"
 containsNsfwContent = false
 
+[package.dependencies]
+GoblinCleanupModding-BepInExPack_GoblinCleanup = "5.4.230501"
+
 [build]
 icon = "./icon.png"
 readme = "./README.md"
@@ -27,7 +30,7 @@ target = "/"
 
 [publish]
 repository = "https://thunderstore.io"
-communities = ["goblincleanup"]
+communities = ["goblin-cleanup"]
 
 [publish.categories]
-goblincleanup = ["mods"]
+goblin-cleanup = ["mods"]
